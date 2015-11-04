@@ -1,0 +1,42 @@
+body {
+	background-color:tan;
+	
+}
+
+
+h1 {
+	text-align:center;
+	color:black; 	
+	font-size: 3em; 
+	font-weight:bold; 
+	font-variant:small-caps;
+}
+
+
+table, th, td {
+	
+	border: 1px solid black;
+        
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th, td {
+	
+	padding: 15px;
+}
+
+th {
+    text-align: center;
+    background-color:yellow;
+    color:silver;
+    
+}
+
+td {
+    background-color:#F08080;
+    color:white;
+}
