@@ -13,7 +13,8 @@
         
         <form name="updateForm" action="updatePlayer" method="get">
             <label>Player ID:</label>
-            <input type="text" name="name" value="<%= player.getPlayerID() %>" />
+            <input type="text" name="id" value="<%= player.getPlayerID() %>" readonly/>
+            <br>
             <label>Player Name:</label>
             <input type="text" name="name" value="<%= player.getPlayerName() %>" />
             <br>

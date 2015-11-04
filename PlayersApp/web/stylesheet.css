@@ -40,3 +40,8 @@ td {
     background-color:#F08080;
     color:white;
 }
+
+input[readonly]{
+    
+    background-color:gray;
+}
