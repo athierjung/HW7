@@ -16,5 +16,7 @@
         <h1>NBA Players Database</h1>
         
         <a href="read">View All Players</a>
+        <br><br>
+        <a href="search.jsp">Search A Player</a>
     </body>
 </html>
