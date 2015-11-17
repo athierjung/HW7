@@ -13,10 +13,22 @@
         <title>NBA Players</title>
     </head>
     <body>
-        <h1>NBA Players Database</h1>
+        <div class="wrap">  <!--div to hold all other divs -->
         
-        <a href="read">View All Players</a>
-        <br><br>
-        <a href="search.jsp">Search A Player</a>
+            <%@ include file="includes/header.jsp" %>
+                        
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            <div class="main"> <!--main div-->
+            
+                <h1>NBA Players Database</h1>
+        
+                                            	
+            </div>  <!--close main div-->
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>  <!--close wrap div -->
     </body>
 </html>

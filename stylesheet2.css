@@ -1,4 +1,4 @@
-body {background-color:lightskyblue;}
+body {background-color:light-gray;}
 
 /* wrapper div that holds all the content divs for the page */
 .wrap {text-align:center; width:90%; margin: 0 auto; border: 1px solid black; margin-top:25px;}
@@ -8,47 +8,11 @@ body {background-color:lightskyblue;}
 .headerImg {float:left; width:200px;}
 .headerText {float:left; height:105px; padding-top:50px; padding-left:25px;}
 
-h1 {
-	text-align:left;
-	color:black; 	
-	font-size: 3em; 
-	font-weight:bold; 
-	font-variant:small-caps;
-}
+/* formats main page content */
+.main {text-align:left; padding:25px;}
 
-
-table, th, td {
-	
-	border: 1px solid black;
-        
-}
-
-table {
-    margin-left:auto;
-    margin-right:auto;
-}
-
-th, td {
-	
-	padding: 15px;
-}
-
-th {
-    text-align: center;
-    background-color:yellow;
-    color:black;
-    
-}
-
-td {
-    background-color:#F08080;
-    color:white;
-}
-
-input[readonly]{
-    
-    background-color:gray;
-}
+/* formats the page footer */
+.footer {text-align:left; padding:25px;}
 
 .navcontainer { margin-left: 30px; text-align:left;}
 
@@ -93,9 +57,3 @@ input[readonly]{
  /*End hide*/
  /*Mac IE 5*/
  * html .navlist li:first-child { border-left: 0; }
- 
- /* formats main page content */
-.main {text-align:left; padding:25px;}
-
-/* formats the page footer */
-.footer {text-align:left; padding:25px;}

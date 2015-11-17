@@ -12,13 +12,25 @@
     
     
     <body>
+        <div class="wrap">  <!--div to hold all other divs -->
+        
+            <%@ include file="includes/header.jsp" %>
+                        
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            <div class="main"> <!--main div-->
+        
         <h1>NBA Players</h1>
         <%= table %>
         
         <br><br>
         
-        <a href ="add">Add A New Player</a>
-        <br><br>
-        <a href="search.jsp">Search A Player</a>
+                
+        </div>  <!--close main div-->
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>  <!--close wrap div -->
     </body>
 </html>

@@ -9,6 +9,15 @@
         <title>Update A Player</title>
     </head>
     <body>
+        <div class="wrap">  <!--div to hold all other divs -->
+        
+            <%@ include file="includes/header.jsp" %>
+                        
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            <div class="main"> <!--main div-->
+        
         <h1>Update A Player Record</h1>
         
         <form name="updateForm" action="updatePlayer" method="get">
@@ -30,5 +39,11 @@
             <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Update" />
         </form>
+            </div>  <!--close main div-->
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>  <!--close wrap div -->
+            
     </body>
 </html>
